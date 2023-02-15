@@ -1,0 +1,14 @@
+[
+  {
+    "class_name": "前端",
+    "class_desc": "前端开发工具",
+    "link_list": [
+      {
+        "name": "gacm",
+        "link": "https://github.com/kinfuy/gacm",
+        "avatar": "https://github.com/kinfuy/gacm/blob/master/package/assets/icon.png",
+        "descr": "Git Account Management Tools & NPM Registry Manager"
+      }
+    ]
+  }
+]
