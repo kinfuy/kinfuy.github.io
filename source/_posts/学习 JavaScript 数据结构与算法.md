@@ -1,7 +1,6 @@
 ---
 title: ES6 异步解决方案 async 函数
 date: 2020.6.15 21:43:51
-cover: https://s2.loli.net/2022/04/12/I34q7dcmADfQSFw.png
 categories:
   - JavaScript
 tags:
