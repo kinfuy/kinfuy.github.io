@@ -15,7 +15,7 @@ menu:
     订阅: /atom.xml || fas fa-rss
 
 nav:
-  logo: https://picbed.qunarzz.com/af8c84d2c24a6b971153e6620f3218ad.png # image
+  logo: https://avatars.githubusercontent.com/u/37766068?v=4 # image
   display_title: true
   fixed: false # fixed navigation bar
 
@@ -41,9 +41,8 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  fab fa-github: https://github.com/youngjuning/youngjuning.github.io || Github
-  fas fa-envelope: mailto:youngjuning@163.com || Email
-  fab fa-weixin: https://cdn.jsdelivr.net/gh/youngjuning/images/202109211725265.png || 微信
+  fab fa-github: https://github.com/kinfuy/kinfuy.github.io || Github
+  fas fa-envelope: mailto:kinfuy@1outlook.com.com || Email
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
@@ -61,12 +60,6 @@ local_search:
   preload: false
   CDN:
 
-# Math (數學)
-# --------------------------------------
-# About the per_page
-# if you set it to true, it will load mathjax/katex script in each page (true 表示每一頁都加載js)
-# if you set it to false, it will load mathjax/katex script according to your setting (add the 'mathjax: true' in page's front-matter)
-# (false 需要時加載，須在使用的 Markdown Front-matter 加上 mathjax: true)
 
 # MathJax
 mathjax:
@@ -83,11 +76,11 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://picbed.qunarzz.com/af8c84d2c24a6b971153e6620f3218ad.png
+favicon: https://avatars.githubusercontent.com/u/37766068?v=4
 
 # Avatar (頭像)
 avatar:
-  img: https://picbed.qunarzz.com/af8c84d2c24a6b971153e6620f3218ad.png
+  img: https://avatars.githubusercontent.com/u/37766068?v=4
   effect: false
 
 # Disable all banner image
@@ -206,20 +199,13 @@ toc:
 post_copyright:
   enable: true
   decode: false
-  author_href: https://github.com/youngjuning
+  author_href: https://github.com/kinfuy
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 # Sponsor/reward
 reward:
-  enable: true
-  QR_code:
-    - img: https://cdn.jsdelivr.net/gh/youngjuning/images/wechat.png
-      # link:
-      text: 微信
-    - img: https://cdn.jsdelivr.net/gh/youngjuning/images/alipay7.png
-      # link:
-      text: 支付宝
+  enable: false
 
 # Post edit
 # Easily browse and edit blog source code online.
@@ -227,7 +213,7 @@ post_edit:
   enable: true
   # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
-  url: https://github.com/youngjuning/youngjuning.github.io/edit/main/source/
+  url: https://github.com/kinfuy/kinfuy.github.io/edit/main/source/
 
 # Related Articles
 related_post:
@@ -313,9 +299,9 @@ livere:
 gitalk:
   client_id: d7d0d804f3512b567dd4
   client_secret: c0dd36dba24d1bef4d6a95c87d4a2492318ba87d
-  repo: youngjuning.github.io
-  owner: youngjuning
-  admin: [youngjuning]
+  repo: kinfuy.github.io
+  owner: kinfuy
+  admin: [kinfuy]
   option:
     language: zh-CN # en, zh-CN, zh-TW, es-ES, fr, ru
     perPage: 10 # Pagination size, with maximum 100.
@@ -344,7 +330,7 @@ waline:
 # utterances
 # https://utteranc.es/
 utterances:
-  repo: youngjuning/youngjuning.js.org
+  repo: kinfuy/kinfuy.js.org
   # Issue Mapping: pathname/url/title/og:title
   issue_term: og:title
   # Theme: github-light/github-dark/github-dark-orange/icy-dark/dark-blue/photon-dark
@@ -371,7 +357,7 @@ twikoo:
 # Giscus
 # https://giscus.app/
 giscus:
-  repo: youngjuning/youngjuning.js.org
+  repo: kinfuy/kinfuy.js.org
   repo_id: R_kgDOGFxZtw
   category_id: DIC_kwDOGFxZt84CUMwP
   theme:
