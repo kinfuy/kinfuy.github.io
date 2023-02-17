@@ -7,11 +7,27 @@ jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
-          submodules: true 
-      - run: npm run install
-      - run: npm run  build
+          fetch-depth: 0
+      - name: Set node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm
+        id: pnpm-install
+        with:
+          version: 7
+          run_install: false
+
+      - name: build
+        run: |
+          pnpm  install
+          pnpm run build
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
