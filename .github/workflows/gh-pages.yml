@@ -2,17 +2,16 @@ name: github pages
 on:
   push:
     branches:
-      - master # default branch
+      - master
 jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
         with:
-          submodules: true # Checkout private submodules(themes or something else).
-      - uses: c-hive/gha-yarn-cache@v2
-      - run: yarn install
-      - run: yarn build
+          submodules: true 
+      - run: npm install
+      - run: npm build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
