@@ -8,7 +8,6 @@ top_img: false
 # 联系方式
 
 - Email：yonghu520outlook.com
-- 微信号：xhxhzd
 
 # 个人信息
 
