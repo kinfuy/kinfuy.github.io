@@ -18,7 +18,6 @@ top_img: false
 - 技术博客：https://kinfuy.js.org
 - Github：https://github.com/kinfuy
 - 期望职位：前端开发工程师，Vue 开发工程师、 开发工程师
-- 期望薪资：税前月薪 20k~30k
 
 # 个人优势
 

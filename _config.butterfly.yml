@@ -87,7 +87,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://picbed.qunarzz.com/7cb93a09ca9bbbc8ad89ca07a72daf4b.png
+index_img: /static/articles/wallhaven-3llr9y.jpg
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: https://pic2.zhimg.com/80/v2-7099d20a6239795a13c1525a44e243bd_1440w.webp
@@ -435,7 +435,7 @@ messenger:
 footer:
   owner:
     enable: true
-    since: 2020
+    since: 2023
   custom_text:
   copyright: true # Copyright of theme and framework
 
@@ -444,19 +444,9 @@ footer:
 
 # Baidu Analytics
 # https://tongji.baidu.com/web/welcome/login
-baidu_analytics: df1911ed1429a8432517d427138fbb79
+baidu_analytics: 7edb025e5c958b78d58aa65d2a8ebb11
 
-# Google Analytics
-# https://analytics.google.com/analytics/web/
-google_analytics: UA-158205277-1
 
-# Cloudflare Analytics
-# https://www.cloudflare.com/zh-tw/web-analytics/
-cloudflare_analytics:
-
-# Microsoft Clarity
-# https://clarity.microsoft.com/
-microsoft_clarity:
 
 # Advertisement
 # --------------------------------------
