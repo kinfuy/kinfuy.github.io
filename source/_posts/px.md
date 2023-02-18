@@ -1,8 +1,10 @@
 ---
 title: 前端常见单位
-theme: default
-tag: InformalEssay
-time: 2020.9.29
+date: 2020.9.29
+categories:
+  - JavaScript
+tags: 
+  - JavaScript 前端单位
 ---
 
 ## 前端常见单位

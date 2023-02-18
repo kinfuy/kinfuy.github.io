@@ -1,8 +1,11 @@
 ---
 title: ES6异步解决方案Promise
-theme: default
-tag: javascript
-time: 2020.6.14
+date: 2020.6.14
+categories:
+  - JavaScript
+tags: 
+  - ES6 
+  - JavaScript
 ---
 
 ## ES6 异步解决方案 Promise

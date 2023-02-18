@@ -1,8 +1,10 @@
 ---
 title: Vue中使用rem移动端适配方案
-theme: default
-tag: Vuejs
-time: 2020.9.29
+date: 2020.9.29
+categories:
+  - Vuejs
+tags:
+  - vue2
 ---
 
 Vue 中使用 rem 移动端适配方案

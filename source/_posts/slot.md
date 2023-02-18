@@ -1,8 +1,12 @@
 ---
 title: vue插槽的基本使用
-theme: default
-tag: Vuejs
-time: 2020.12.7
+date: 2020.12.7
+categories:
+  - Vuejs
+tags:
+  - vue2 
+  - slot
+  - 插槽
 ---
 
 ## vue 插槽的基本使用

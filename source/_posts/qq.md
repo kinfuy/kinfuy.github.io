@@ -1,8 +1,10 @@
 ---
 title: QQ互联避坑指南
-theme: default
-tag: InformalEssay
-time: 2020.9.29
+date: 2020.9.29
+categories:
+  - Nodejs
+tags:
+  - QQ互联
 ---
 
 # QQ 互联避坑指南

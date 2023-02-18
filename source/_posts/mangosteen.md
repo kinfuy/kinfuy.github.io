@@ -1,8 +1,12 @@
 ---
 title: '✨每个前端都应该拥有自己的快速模板CLI工具'
-theme: default
-tag: Tool
-time: 2022.6.29
+date: 2022.6.29
+COVER: https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d5140e57559f49ed9106f70c1f5ab1ef~tplv-k3u1fbpfcp-zoom-crop-mark:3024:3024:3024:1702.awebp
+categories:
+  - 工具
+tags: 
+  - CLI 
+  - NodeJS
 ---
 
 ## ✨ 每个前端都应该拥有自己的快速模板 CLI 工具

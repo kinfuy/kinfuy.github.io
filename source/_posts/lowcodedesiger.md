@@ -1,8 +1,11 @@
 ---
 title: 【低代码平台之万物互联】怎么打通物料，渲染器，属性设置器？
-theme: default
-tag: InformalEssay
-time: 2022.8.10
+cover: /static/articles/material.png
+date: 2022.8.10
+categories:
+  - 低代码系列
+tags: 
+  - 低代码
 ---
 
 ## 序

@@ -1,9 +1,11 @@
 ---
 title: 粘贴板之二维码复制
-theme: default
-tag: Javascript
+date: 2021.8.5 14:55:21
 cover: /static/articles/4.webp
-time: 2021.5.18
+categories:
+  - JavaScript
+tags:
+  - JavaScript
 ---
 
 ## 粘贴板之二维码复制

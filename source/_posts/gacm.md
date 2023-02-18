@@ -1,8 +1,10 @@
 ---
 title: 【gacm】傻瓜式git账号管理工具
-theme: default
-tag: Tool
-time: 2022.4.26
+date: 2022.4.26 20:12:32
+categories:
+  - 工具
+tags:
+  - git账号
 ---
 
 ## 【gacm】傻瓜式 git 账号管理工具

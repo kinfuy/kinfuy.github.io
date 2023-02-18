@@ -1,8 +1,11 @@
 ---
 title: socket.io初体验
-theme: default
-tag: Nodejs
-time: 2021.3.31
+date: 2021.3.31
+cover: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/049cf13f737b46b586120eaa68eb0a17~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp
+categories:
+  - Nodejs
+tags:
+  - socket
 ---
 
 ## socket.io 初体验

@@ -1,8 +1,11 @@
 ---
 title: ES6之对象方法
-theme: default
-tag: Javascript
-time: 2020.6.13
+date: 2020.6.13
+categories:
+  - JavaScript
+tags: 
+  - ES6 
+  - JavaScript
 ---
 
 ## ES6 之对象方法

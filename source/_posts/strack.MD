@@ -1,8 +1,10 @@
 ---
 title: 手撕数据结构---栈
-theme: default
-tag: Javascript
-time: 2020.10.23
+date: 2020.10.23
+categories:
+  - Javascript
+tags:
+  - 数据结构
 ---
 
 ## 手撕数据结构---栈

@@ -1,8 +1,10 @@
 ---
 title: 前端校招面试题
-theme: default
-tag: InformalEssay
-time: 2020.12.6
+date: 2020.12.6
+categories:
+  - 面试
+tags: 
+  - 面试题
 ---
 
 ## 前端校招面试题

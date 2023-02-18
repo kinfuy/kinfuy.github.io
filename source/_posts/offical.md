@@ -1,8 +1,11 @@
 ---
 title: 拜读vue官方文档
-theme: default
 tag: Vuejs
-time: 2020.12.7
+date: 2020.12.7
+categories:
+  - Vuejs
+tags: 
+  - Vuejs
 ---
 
 ## 拜读 vue 官方文档

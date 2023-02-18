@@ -1,8 +1,10 @@
 ---
 title: 【拿来吧你】装饰器
-theme: default
-tag: Javascript
-time: 2021.8.2
+date: 2021.8.2 12:32:54
+categories:
+  - JavaScript
+tags:
+  - JavaScript
 ---
 
 ## 【拿来吧你】装饰器

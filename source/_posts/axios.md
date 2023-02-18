@@ -2,6 +2,10 @@
 title: 你还不知道怎么取消重复请求？
 cover: /static/articles/1.webp
 date: 2021.6.11 11:22:44
+categories:
+  - JavaScript
+tags:
+  - Axios
 ---
 
 ## 你还不知道怎么取消重复请求？

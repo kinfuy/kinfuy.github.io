@@ -1,8 +1,10 @@
 ---
 title: 极简的git账号与npm registry管理工具
-theme: default
-tag: Tool
-time: 2022.11.7
+date: 2022.11.7 14:21:31
+categories:
+  - 工具
+tags:
+  - git账号 npm registry
 ---
 
 ## 极简的 git 账号与 npm registry 管理工具

@@ -1,8 +1,12 @@
 ---
 title: vitepress+github page 快速搭建个人博客
-theme: default
-tag: Vuejs
-time: 2022.5.11
+cover: /static/articles/blog.jpg
+date: 2022.5.11
+categories:
+  - Vuejs
+tags:
+  - vitepress 
+  - Vue3
 ---
 
 ## vitepress+github page 快速搭建个人博客

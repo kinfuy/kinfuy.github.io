@@ -1,8 +1,10 @@
 ---
 title: 关于EventLoop的简单理解
-theme: default
-tag: Javascript
-time: 2021.1.8
+date: 2021.1.8 9:44:51
+categories:
+  - JavaScript
+tags:
+  - EventLoop
 ---
 
 ## 关于 EventLoop 的简单理解

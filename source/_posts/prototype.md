@@ -1,8 +1,11 @@
 ---
 title: 你真的了解prototype和__proto__吗
-theme: default
-tag: Javascript
-time: 2021.3.29
+date: 2021.3.29
+categories:
+  - JavaScript
+tags: 
+  - prototype 
+  - JavaScript
 ---
 
 ## 你真的了解 prototype 和**proto**吗

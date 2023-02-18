@@ -1,8 +1,11 @@
 ---
 title: 常用的三种模块化规范
-theme: default
-tag: Javascript
-time: 2020.11.4
+date: 2020.11.4
+categories:
+  - JavaScript
+tags: 
+  - 模块化 
+  - JavaScript
 ---
 
 ## 常用的三种模块化规范

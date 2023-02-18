@@ -1,8 +1,11 @@
 ---
 title: 【低代码平台之哈姆雷特】千变万化的属性设置器
-theme: default
-tag: InformalEssay
-time: 2022.8.21
+cover: /static/articles/setter.png
+date: 2022.8.21
+categories:
+  - 低代码系列
+tags: 
+  - 低代码
 ---
 
 ## 序

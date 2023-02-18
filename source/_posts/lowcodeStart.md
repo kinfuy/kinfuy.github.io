@@ -1,8 +1,11 @@
 ---
 title: 【低代码系列之序章】打翻前端的狗碗？
-theme: default
-tag: InformalEssay
-time: 2022.7.31
+cover: /static/articles/lowcode.png
+date: 2022.7.31
+categories:
+  - 低代码系列
+tags: 
+  - 低代码
 ---
 
 ## 什么是低代码平台

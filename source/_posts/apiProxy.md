@@ -3,9 +3,9 @@ title: 【前端必备】极简的 API 代理工具!
 date: 2022.2.22 21:43:51
 cover: https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/24d98c2f40754a2eabe6c54e78d8e689~tplv-k3u1fbpfcp-zoom-1.image
 categories:
-  - JavaScript
+  - 工具
 tags:
-  - Angular
+  - 代理
 ---
 
 ## 【前端必备】极简的 API 代理工具!

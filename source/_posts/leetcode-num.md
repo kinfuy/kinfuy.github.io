@@ -1,8 +1,11 @@
 ---
 title: LeetCode刷题日记之找出数组中重复数字
-theme: default
-tag: Javascript
-time: 2021.1.11
+cover: https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1d3e0fe55ffd4b7abd6e439dfdfb3e4e~tplv-k3u1fbpfcp-zoom-1.image
+date: 2021.1.11 22:11:33
+categories:
+  - LeetCode
+tags:
+  - LeetCode
 ---
 
 ## LeetCode 刷题日记之找出数组中重复数字

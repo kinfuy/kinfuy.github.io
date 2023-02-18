@@ -1,8 +1,10 @@
 ---
 title: 关于XSS与CSRF你应该知道的
-theme: default
-tag: Javascript
-time: 2021.2.28
+date: 2021.2.28 22:11:26
+categories:
+  - JavaScript
+tags:
+  - JavaScript
 ---
 
 ## 关于 XSS 与 CSRF 你应该知道的

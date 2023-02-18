@@ -1,8 +1,11 @@
 ---
 title: vue自定义指令之v-loading（附源码，可CV）
-theme: default
-tag: Vuejs
-time: 2021.4.3
+cover: https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/34d8e9b2026041f4a1fffd87127f0185~tplv-k3u1fbpfcp-watermark.image
+date: 2021.4.3 14:26:45
+categories:
+  - Vuejs
+tags:
+  - 指令
 ---
 
 组件 API：[TigerUi：http://tigerui.xkongkeji.com](http://tigerui.xkongkeji.com/#loading-%E5%8A%A0%E8%BD%BD)

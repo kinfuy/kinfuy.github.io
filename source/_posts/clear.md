@@ -1,8 +1,11 @@
 ---
 title: 插件一键去水印，岂不妙哉！
-theme: default
-tag: Tool
-time: 2021.8.1
+date: 2021.8.1 14:55:21
+categories:
+  - 插件
+tags:
+  - chrome
+---
 ---
 
 ## 插件一键去水印，岂不妙哉！

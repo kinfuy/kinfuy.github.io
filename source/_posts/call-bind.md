@@ -1,8 +1,10 @@
 ---
 title: call、apply、bind详解
-theme: default
-tag: Javascript
-time: 2020.10.18
+date: 2020.10.18 16:21:00
+categories:
+  - JavaScript
+tags:
+  - JavaScript
 ---
 
 ## call、apply、bind 详解

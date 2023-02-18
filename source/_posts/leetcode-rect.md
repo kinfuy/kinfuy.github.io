@@ -1,8 +1,11 @@
 ---
 title: LeetCode刷题日记之顺时针打印矩阵
-theme: default
-tag: Javascript
-time: 2021.1.12
+cover: https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/114a757fe3824f88a5a9ccd156478563~tplv-k3u1fbpfcp-zoom-1.image
+date: 2021.1.12 22:23:12
+categories:
+  - LeetCode
+tags:
+  - LeetCode
 ---
 
 ## LeetCode 刷题日记之顺时针打印矩阵

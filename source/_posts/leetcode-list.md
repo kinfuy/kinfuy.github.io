@@ -1,8 +1,11 @@
 ---
 title: LeetCode刷题日记之链表中倒数第k个节点
-theme: default
-tag: Javascript
-time: 2021.1.21
+cover: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6e98f46351f84451804105231059ed4b~tplv-k3u1fbpfcp-watermark.image
+date: 2021.1.21 21:44:32
+categories:
+  - LeetCode
+tags:
+  - LeetCode
 ---
 
 ## LeetCode 刷题日记之链表中倒数第 k 个节点

@@ -1,8 +1,10 @@
 ---
 title: 手撕数据结构----队列与优先队列
-theme: default
-tag: Javascript
-time: 2020.10.28
+date: 2020.10.28
+categories:
+  - Javascript
+tags:
+  - 数据结构
 ---
 
 ## 手撕数据结构----队列与优先队列

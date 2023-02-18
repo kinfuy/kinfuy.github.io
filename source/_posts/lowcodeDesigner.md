@@ -1,9 +1,11 @@
 ---
 title: 【低代码系列之万物之初】重生之梦回Dreamweaver？
-theme: default
 cover: /static/articles/lowcode1.png
-tag: InformalEssay
-time: 2022.8.2
+date: 2022.8.2
+categories:
+  - 低代码系列
+tags: 
+  - 低代码
 ---
 
 ## 背景

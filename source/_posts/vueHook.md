@@ -1,8 +1,12 @@
 ---
 title: Vue3 Hook 到底是啥黑魔法？
-theme: default
-tag: Vuejs
-time: 2021.7.29
+date: 2021.7.29
+cover: /static/articles/vuehook.webp
+categories:
+  - Vuejs
+tags:
+  - Hook 
+  - Vue3
 ---
 
 早就听说，`React`社区，已经全面拥抱`Hook`。`Vue3`的发布也支持了自定义`Hook`，作为只会`Vue`的前端小码农自然要去看看`Vue3 Hook`到底是啥黑魔法？

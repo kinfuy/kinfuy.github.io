@@ -1,8 +1,11 @@
 ---
 title: 鼠标拖拽建立选区，选中元素
-theme: default
-tag: Vuejs
-time: 2021.7.14
+cover: https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/24bade2b81104b6e8b2e874445214281~tplv-k3u1fbpfcp-watermark.image
+date: 2021.7.14
+categories:
+  - Vuejs
+tags:
+  - vue2
 ---
 
 近段时间做一个编辑器，就需要一个鼠标拖拽选区的功能，方便批量选中元素，进行相应操作，所有就有了这篇文章。

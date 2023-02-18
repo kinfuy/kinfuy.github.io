@@ -1,9 +1,8 @@
 ---
 title: Angular你不得不了解的入门小知识
 date: 2021.3.27 21:43:51
-cover: /static/articles/2021.webp
 categories:
-  - JavaScript
+  - Angular
 tags:
   - Angular
 ---

@@ -1,8 +1,10 @@
 ---
 title: vue中的依赖注入 provide 和 inject
-theme: default
-tag: Vuejs
-time: 2020.10.11
+date: 2020.10.11 20:14:21
+categories:
+  - Vuejs
+tags:
+  - Axios
 ---
 
 ## vue 中的依赖注入 provide 和 inject

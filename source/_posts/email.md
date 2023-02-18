@@ -1,8 +1,10 @@
 ---
 title: node发送邮件
-theme: default
-tag: Nodejs
-time: 2020.9.26
+date: 2020.9.26 22:14:21
+categories:
+  - Nodejs
+tags:
+  - email
 ---
 
 ## node 发送邮件

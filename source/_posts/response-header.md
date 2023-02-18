@@ -1,8 +1,10 @@
 ---
-title: 文件下载 之response header中获取文件名
-theme: default
-tag: Javascript
-time: 2021.4.28
+title: 文件下载之response header中获取文件名
+date: 2021.4.28
+categories:
+  - Javascript
+tags:
+  - 文件下载
 ---
 
 ## 文件下载 之 response header 中获取文件名

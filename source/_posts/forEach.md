@@ -1,8 +1,10 @@
 ---
 title: JS 如何终止 forEach 循环
-theme: default
-tag: Javascript
-time: 2020.10.22
+date: 2020.10.22 12:14:21
+categories:
+  - JavaScript
+tags:
+  - JavaScript
 ---
 
 ## JS 如何终止 forEach 循环
