@@ -267,7 +267,7 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
-  use: gitalk,giscus # Valine,Disqus
+  use: giscus # Valine,Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -275,34 +275,12 @@ comments:
   count: true # Display comment count in post's top_img
   card_post_count: true # Display comment count in Home Page
 
-# disqus
-# https://disqus.com/
-disqus:
-  shortname: kinfuy
-  apikey: # For newest comments widget
-
-# gitalk
-# https://github.com/gitalk/gitalk
-gitalk:
-  client_id: 2a2594b05243f80cca58
-  client_secret: 3bb9514333b0d5a864482a431424d85dbe687e9a
-  repo: kinfuy/kinfuy.github.io
-  owner: kinfuy
-  admin: [kinfuy]
-  option:
-    language: zh-CN # en, zh-CN, zh-TW, es-ES, fr, ru
-    perPage: 10 # Pagination size, with maximum 100.
-    distractionFreeMode: false # Facebook-like distraction free mode.
-    pagerDirection: last # Comment sorting direction, available values are last and first.
-    createIssueManually: false # Gitalk will create a corresponding github issue for your every single page automatically
-
-
 # Giscus
 # https://giscus.app/
 giscus:
   repo: kinfuy/kinfuy.github.io
-  # repo_id: R_kgDOGFxZtw
-  # category_id: DIC_kwDOGFxZt84CUMwP
+  repo_id: R_kgDOI-M3AA
+  category_id: DIC_kwDOI-M3AM4CUS2y
   theme:
     light: light
     dark: dark
