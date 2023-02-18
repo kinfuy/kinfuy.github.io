@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kinfuy.js.org/sitemap.xml
+Sitemap: https://kinfuy.github.io/sitemap.xml
