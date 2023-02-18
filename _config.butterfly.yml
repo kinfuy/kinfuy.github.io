@@ -213,7 +213,7 @@ post_edit:
   enable: true
   # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
-  url: https://github.com/kinfuy/kinfuy.github.io/edit/main/source/
+  url: https://github.com/kinfuy/kinfuy.github.io/edit/master/source/
 
 # Related Articles
 related_post:
@@ -711,7 +711,7 @@ busuanzi:
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 2020/01/29 00:00:00
+  publish_date: 2023/02/17 00:00:00
 
 # Aside widget - Newest Comments
 newest_comments:
