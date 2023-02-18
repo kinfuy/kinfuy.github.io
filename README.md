@@ -2,7 +2,7 @@
 
 <!--test-->
 
-[![](https://img.shields.io/website-up-down-green-red/https/youngjuing.js.org.svg)](https://kinfuy.js.org)
+[![](https://img.shields.io/website-up-down-green-red/https/youngjuing.js.org.svg)](https://kinfuy.github.io/)
 [![github pages](https://github.com/kinfuy/kinfuy.github.io/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/kinfuy/kinfuy.github.io/actions/workflows/gh-pages.yml)
 [![](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](https://guides.github.com/features/mastering-markdown/)
 

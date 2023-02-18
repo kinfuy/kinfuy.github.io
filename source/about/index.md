@@ -14,7 +14,7 @@ top_img: false
 - 阿乐去买菜/男/1998
 - 本科
 - 工作年限：2 年
-- 技术博客：https://kinfuy.js.org
+- 技术博客：https://kinfuy.github.io/
 - Github：https://github.com/kinfuy
 - 期望职位：前端开发工程师，Vue 开发工程师、 开发工程师
 
