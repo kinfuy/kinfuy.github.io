@@ -1,7 +1,7 @@
 ---
 title: 【初体验】Atom 的“精神继承者”，Atom 的创始人新作“Zed”
 date: 2023.03.13 20:00:00
-cover: /static/articles/die.webp
+cover: /static/articles/zed.webp
 categories:
   - 开源大事件
 tags:
