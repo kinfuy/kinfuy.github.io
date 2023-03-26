@@ -6,7 +6,7 @@ cover: https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f131a456136e46c3a0821cf
 categories:
   - 开源大事件
 tags:
-  - 2022
+  - ChatGPT
 ---
 
 ## GPT-4能否“真正”编写代码？
