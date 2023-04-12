@@ -7,6 +7,9 @@
 [![](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](https://guides.github.com/features/mastering-markdown/)
 
 
+## 主要博客转移至掘金
+
+https://juejin.cn/user/1257497032146535
 
 > power by [@洛竹的博客](https://youngjuning.js.org/)
 
