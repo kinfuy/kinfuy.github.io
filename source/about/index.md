@@ -7,7 +7,7 @@ top_img: false
 
 # 联系方式
 
-- Email：yonghu520outlook.com
+- kinfuy@outlook.com
 
 # 个人信息
 
