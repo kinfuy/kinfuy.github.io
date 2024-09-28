@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>阿乐去买菜 - 点点星光。</title><meta name="author" content="阿乐去买菜"><meta name="copyright" content="阿乐去买菜"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="点点星光。">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>阿乐去买菜 - 点点星光。</title><meta name="author" content="阿乐去买菜"><meta name="copyright" content="阿乐去买菜"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="点点星光。">
 <meta property="og:type" content="website">
 <meta property="og:title" content="阿乐去买菜">
 <meta property="og:url" content="https://kinfuy.github.io/index.html">
@@ -13,20 +13,20 @@
 <meta property="article:tag" content="Node.js">
 <meta property="article:tag" content="Vue.js">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://avatars.githubusercontent.com/u/37766068?v=4"><link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/37766068?v=4"><link rel="canonical" href="https://kinfuy.github.io/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+<meta name="twitter:image" content="https://avatars.githubusercontent.com/u/37766068?v=4"><link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/37766068?v=4"><link rel="canonical" href="https://kinfuy.github.io/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
   hm.src = "https://hm.baidu.com/hm.js?7edb025e5c958b78d58aa65d2a8ebb11";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
-</script><script>const GLOBAL_CONFIG = { 
+</script><script>const GLOBAL_CONFIG = {
   root: '/',
   algolia: undefined,
-  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
   translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
   noticeOutdate: {"limitDay":365,"position":"top","messagePrev":"It has been","messageNext":"days since the last update, the content of the article may be outdated."},
-  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":400},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":400},
   copy: {
     success: '复制成功',
     error: '复制错误',
@@ -37,7 +37,7 @@
     post: true
   },
   runtime: '天',
-  date_suffix: {
+  dateSuffix: {
     just: '刚刚',
     min: '分钟前',
     hour: '小时前',
@@ -46,12 +46,10 @@
   },
   copyright: {"limitCount":50,"languages":{"author":"作者: 阿乐去买菜","link":"链接: ","source":"来源: 阿乐去买菜","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
   lightbox: 'fancybox',
-  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-left"},
-  source: {
-    justifiedGallery: {
-      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
-      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
-    }
+  Snackbar: {"chs_to_cht":"你已切换为繁体中文","cht_to_chs":"你已切换为简体中文","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-left"},
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
   },
   isPhotoFigcaption: false,
   islazyload: false,
@@ -59,86 +57,86 @@
   percent: {
     toc: true,
     rightside: true,
-  }
+  },
+  autoDarkmode: false
 }</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
   title: '阿乐去买菜',
   isPost: false,
   isHome: true,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2023-11-21 23:50:32'
-}</script><noscript><style type="text/css">
-  #nav {
-    opacity: 1
-  }
-  .justified-gallery img {
-    opacity: 1
-  }
-
-  #recent-posts time,
-  #post-meta time {
-    display: inline !important
-  }
-</style></noscript><script>(win=>{
-    win.saveToLocal = {
-      set: function setWithExpiry(key, value, ttl) {
-        if (ttl === 0) return
-        const now = new Date()
-        const expiryDay = ttl * 86400000
-        const item = {
-          value: value,
-          expiry: now.getTime() + expiryDay,
+  postUpdate: '2024-09-28 22:45:16'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
         }
-        localStorage.setItem(key, JSON.stringify(item))
-      },
-
-      get: function getWithExpiry(key) {
-        const itemStr = localStorage.getItem(key)
-
-        if (!itemStr) {
-          return undefined
-        }
-        const item = JSON.parse(itemStr)
-        const now = new Date()
-
-        if (now.getTime() > item.expiry) {
-          localStorage.removeItem(key)
-          return undefined
-        }
-        return item.value
       }
-    }
-  
-    win.getScript = url => new Promise((resolve, reject) => {
-      const script = document.createElement('script')
-      script.src = url
-      script.async = true
-      script.onerror = reject
-      script.onload = script.onreadystatechange = function() {
-        const loadState = this.readyState
-        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-        script.onload = script.onreadystatechange = null
-        resolve()
-      }
-      document.head.appendChild(script)
-    })
-  
-    win.getCSS = url => new Promise((resolve, reject) => {
-      const link = document.createElement('link')
-      link.rel = 'stylesheet'
-      link.href = url
-      link.onload = () => resolve()
-      link.onerror = () => reject()
-      document.head.appendChild(link)
-    })
-  
-      win.activateDarkMode = function () {
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
         document.documentElement.setAttribute('data-theme', 'dark')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
           document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
         }
       }
-      win.activateLightMode = function () {
+      win.activateLightMode = () => {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
           document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
@@ -146,9 +144,9 @@
       }
       const t = saveToLocal.get('theme')
     
-          if (t === 'dark') activateDarkMode()
-          else if (t === 'light') activateLightMode()
-        
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
       const asideStatus = saveToLocal.get('aside-status')
       if (asideStatus !== undefined) {
         if (asideStatus === 'hide') {
@@ -158,14 +156,24 @@
         }
       }
     
-    const detectApple = () => {
-      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
-        document.documentElement.classList.add('apple')
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
       }
-    }
-    detectApple()
+      detectApple()
     })(window)</script><link rel="stylesheet" href="/custom.css"><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="阿乐去买菜" type="application/atom+xml">
-</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://avatars.githubusercontent.com/u/37766068?v=4" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">57</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">44</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">13</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/friends/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-heart"></i><span> 收藏</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/tool/"><i class="fa-fw fas fa-cog"></i><span> 开发工具</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-star"></i><span> 更多</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/about/"><i class="fa-fw fa fa-id-card"></i><span> 简历</span></a></li><li><a class="site-page child" href="/atom.xml"><i class="fa-fw fas fa-rss"></i><span> 订阅</span></a></li></ul></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/static/articles/wallhaven-3llr9y.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="阿乐去买菜"><img class="site-icon" src="https://avatars.githubusercontent.com/u/37766068?v=4"/><span class="site-name">阿乐去买菜</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/friends/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-heart"></i><span> 收藏</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/tool/"><i class="fa-fw fas fa-cog"></i><span> 开发工具</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-star"></i><span> 更多</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/about/"><i class="fa-fw fa fa-id-card"></i><span> 简历</span></a></li><li><a class="site-page child" href="/atom.xml"><i class="fa-fw fas fa-rss"></i><span> 订阅</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">阿乐去买菜</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/kinfuy/kinfuy.github.io" rel="external nofollow noreferrer" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:kinfuy@1outlook.com.com" rel="external nofollow noreferrer" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/20a62f1b9ea2/" title="Vite4.3 来袭，性能提升 10x！冷启动时间比turbopack还快！"><img class="post-bg" src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/10f42280470c4e8f9d51fc4ef406e910~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Vite4.3 来袭，性能提升 10x！冷启动时间比turbopack还快！"></a></div><div class="recent-post-info"><a class="article-title" href="/20a62f1b9ea2/" title="Vite4.3 来袭，性能提升 10x！冷启动时间比turbopack还快！">Vite4.3 来袭，性能提升 10x！冷启动时间比turbopack还快！</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-12T16:00:00.000Z" title="发表于 2023-04-13 00:00:00">2023-04-13</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-12T13:59:03.541Z" title="更新于 2023-04-12 21:59:03">2023-04-12</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BC%80%E6%BA%90%E5%A4%A7%E4%BA%8B%E4%BB%B6/">开源大事件</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/vite/">vite</a></span></div><div class="content">序最近vite发布4.3-Beta版本，vite团队在这个版本重点是工作是性能优化，并且取得了惊人的成果🥳
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://avatars.githubusercontent.com/u/37766068?v=4" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">58</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">45</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">13</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/friends/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-heart"></i><span> 收藏</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/tool/"><i class="fa-fw fas fa-cog"></i><span> 开发工具</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-star"></i><span> 更多</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/about/"><i class="fa-fw fa fa-id-card"></i><span> 简历</span></a></li><li><a class="site-page child" href="/atom.xml"><i class="fa-fw fas fa-rss"></i><span> 订阅</span></a></li></ul></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/static/articles/wallhaven-3llr9y.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="阿乐去买菜"><img class="site-icon" src="https://avatars.githubusercontent.com/u/37766068?v=4"/><span class="site-name">阿乐去买菜</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/friends/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-heart"></i><span> 收藏</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/tool/"><i class="fa-fw fas fa-cog"></i><span> 开发工具</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-star"></i><span> 更多</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/about/"><i class="fa-fw fa fa-id-card"></i><span> 简历</span></a></li><li><a class="site-page child" href="/atom.xml"><i class="fa-fw fas fa-rss"></i><span> 订阅</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">阿乐去买菜</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/kinfuy/kinfuy.github.io" rel="external nofollow noreferrer" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:kinfuy@1outlook.com.com" rel="external nofollow noreferrer" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/8fd479c10f02/" title="“遇见数字，发现有趣” 前端程序员的第一款 iOS App 《Suka 数字卡片》上线了🎉🎉"><img class="post-bg" src="https://i.imgur.com/vxOdmUH.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="“遇见数字，发现有趣” 前端程序员的第一款 iOS App 《Suka 数字卡片》上线了🎉🎉"></a></div><div class="recent-post-info"><a class="article-title" href="/8fd479c10f02/" title="“遇见数字，发现有趣” 前端程序员的第一款 iOS App 《Suka 数字卡片》上线了🎉🎉">“遇见数字，发现有趣” 前端程序员的第一款 iOS App 《Suka 数字卡片》上线了🎉🎉</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-09-28T14:37:25.000Z" title="发表于 2024-09-28 22:37:25">2024-09-28</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-09-28T14:40:05.777Z" title="更新于 2024-09-28 22:40:05">2024-09-28</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/iOS/">iOS</a></span></div><div class="content">序最近vite发布4.3-Beta版本，vite团队在这个版本重点是工作是性能优化，并且取得了惊人的成果🥳
+上线了经过一个多月的内测，我们的 App 终于上线了🎉🎉
+正式给大家介绍一下🤓
+Suka 数字卡片，是一款主打数字记录的 App ，每一个小卡片都有属于自己的能力✊
+“遇见数字，发现有趣” 是我们的理念❤️ 希望大家都能记录生活那些有意义，有趣的数字瞬间(˘³˘)💕
+目前已经上线了四种类型卡片：记日卡片，记次卡片，社媒卡片，里程碑卡片🧩
+当然这是我们的第一个版本，功能还有些许不完善的地方，请大家多多谅解⛳️
+后续计划中，我们还规划了丰富的卡片类型，帮助大家记录各种各样的数字🤗
+应用商店搜索数字卡片即可🉑，欢迎大家提出意见或者建议🎊
+评论区留言有机会获得免费会员🎉
+Follow 认证This message is used to verify that this feed (feedId:62851852422645760) belongs to me (userId:56870707744741376). Join me in enjoying the nex ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/20a62f1b9ea2/" title="Vite4.3 来袭，性能提升 10x！冷启动时间比turbopack还快！"><img class="post-bg" src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/10f42280470c4e8f9d51fc4ef406e910~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Vite4.3 来袭，性能提升 10x！冷启动时间比turbopack还快！"></a></div><div class="recent-post-info"><a class="article-title" href="/20a62f1b9ea2/" title="Vite4.3 来袭，性能提升 10x！冷启动时间比turbopack还快！">Vite4.3 来袭，性能提升 10x！冷启动时间比turbopack还快！</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-12T16:00:00.000Z" title="发表于 2023-04-13 00:00:00">2023-04-13</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-09-28T14:11:32.075Z" title="更新于 2024-09-28 22:11:32">2024-09-28</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BC%80%E6%BA%90%E5%A4%A7%E4%BA%8B%E4%BB%B6/">开源大事件</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/vite/">vite</a></span></div><div class="content">序最近vite发布4.3-Beta版本，vite团队在这个版本重点是工作是性能优化，并且取得了惊人的成果🥳
 Rust vs JavaScript？？？
 JavaScript也可以写出性能足够好的程序
 Rust时候提升新一波了性能了（敲打）🤔🔨
@@ -173,7 +181,7 @@ Rust时候提升新一波了性能了（敲打）🤔🔨
 性能提升简单翻译一下：我在我的Windows电脑上用Vite 4.3 beta测试了一些基准测试。Vite 4.3的冷启动时间快3倍，热启动时间也快1.3倍🏎。更重要的是，当使用SWC插件时，Vite 4.3的冷启动时间现在比涡轮背包快1.5s。
 数据对比下面是核心成员：翠 &#x2F; green，给出的测试数据：
 Start Time （启动时间）相比于vite4.2.1，vite4.3-beta使用plugin-react或plugin-react-swc插件的冷启动和热启动时间都有显著缩短，分别提升了3.5倍和1.3倍，4.4倍和1.6倍12。
-HMR（热更新时间）相比于vite4.2.1，vite4.3-beta使用plugin-react或plu ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/e74a030ea11c/" title="写给对 “AI 焦虑” 的人，也写给自己👀"><img class="post-bg" src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bee73ff65b2c4ba3bf0a9568a18fe1db~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="写给对 “AI 焦虑” 的人，也写给自己👀"></a></div><div class="recent-post-info"><a class="article-title" href="/e74a030ea11c/" title="写给对 “AI 焦虑” 的人，也写给自己👀">写给对 “AI 焦虑” 的人，也写给自己👀</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-03-26T12:00:00.000Z" title="发表于 2023-03-26 20:00:00">2023-03-26</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-03-26T10:57:30.104Z" title="更新于 2023-03-26 18:57:30">2023-03-26</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BC%80%E6%BA%90%E5%A4%A7%E4%BA%8B%E4%BB%B6/">开源大事件</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/ai/">ai</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/ChatGPT/">ChatGPT</a></span></div><div class="content">序前段时间的一篇文章【看阿里大佬狼叔怎么看待“前端已死论”】，引起了很多网友的争议，关于“前端已死”与“内卷”这个话题。看了评论区，感觉现在技术圈，散播着一种焦躁，甚至摆烂的态度在里面。
+HMR（热更新时间）相比于vite4.2.1，vite4.3-beta使用plugin-react或plu ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/e74a030ea11c/" title="写给对 “AI 焦虑” 的人，也写给自己👀"><img class="post-bg" src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bee73ff65b2c4ba3bf0a9568a18fe1db~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="写给对 “AI 焦虑” 的人，也写给自己👀"></a></div><div class="recent-post-info"><a class="article-title" href="/e74a030ea11c/" title="写给对 “AI 焦虑” 的人，也写给自己👀">写给对 “AI 焦虑” 的人，也写给自己👀</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-03-26T12:00:00.000Z" title="发表于 2023-03-26 20:00:00">2023-03-26</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-03-26T10:57:30.104Z" title="更新于 2023-03-26 18:57:30">2023-03-26</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BC%80%E6%BA%90%E5%A4%A7%E4%BA%8B%E4%BB%B6/">开源大事件</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/ai/">ai</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/ChatGPT/">ChatGPT</a></span></div><div class="content">序前段时间的一篇文章【看阿里大佬狼叔怎么看待“前端已死论”】，引起了很多网友的争议，关于“前端已死”与“内卷”这个话题。看了评论区，感觉现在技术圈，散播着一种焦躁，甚至摆烂的态度在里面。
 我的观点就如我们上文提及的一样，AI只是工具。或许它会特别强大，强大到部分工作不得不靠它们完成。但我仍然相信它们是工具，是辅助。
 省流
 本文没有省流😄
@@ -182,7 +190,7 @@ HMR（热更新时间）相比于vite4.2.1，vite4.3-beta使用plugin-react或pl
 “蒸汽革命”和“AI革命”的区别在于，前者主要是对物质世界的改造，后者主要是对信息世界的改造；前者主要是提高了人类的物理能力，后者主要是提高了人类的智力能力；前者主要是依赖于自然资源，后者主要是依赖于数据资源。
 拥抱变化，这不是人类与生俱来的能力吗？大自然生存法则，物竞天择，适者生存。
 不管是在“蒸汽革命”，还是“AI革命”中，角色定位都是我们自己的选择，个人判断力也是在这个AI时代最重要的能力。
-这是一个十分沉重 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2701d4a4a442/" title="【译】GPT-4能否“真正”编写代码？"><img class="post-bg" src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f131a456136e46c3a0821cfe8be2cdaf~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【译】GPT-4能否“真正”编写代码？"></a></div><div class="recent-post-info"><a class="article-title" href="/2701d4a4a442/" title="【译】GPT-4能否“真正”编写代码？">【译】GPT-4能否“真正”编写代码？</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-03-19T09:49:20.000Z" title="发表于 2023-03-19 17:49:20">2023-03-19</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-03-26T10:56:59.619Z" title="更新于 2023-03-26 18:56:59">2023-03-26</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BC%80%E6%BA%90%E5%A4%A7%E4%BA%8B%E4%BB%B6/">开源大事件</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/ChatGPT/">ChatGPT</a></span></div><div class="content">GPT-4能否“真正”编写代码？
+这是一个十分沉重 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2701d4a4a442/" title="【译】GPT-4能否“真正”编写代码？"><img class="post-bg" src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f131a456136e46c3a0821cfe8be2cdaf~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【译】GPT-4能否“真正”编写代码？"></a></div><div class="recent-post-info"><a class="article-title" href="/2701d4a4a442/" title="【译】GPT-4能否“真正”编写代码？">【译】GPT-4能否“真正”编写代码？</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-03-19T09:49:20.000Z" title="发表于 2023-03-19 17:49:20">2023-03-19</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-03-26T10:56:59.619Z" title="更新于 2023-03-26 18:56:59">2023-03-26</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BC%80%E6%BA%90%E5%A4%A7%E4%BA%8B%E4%BB%B6/">开源大事件</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/ChatGPT/">ChatGPT</a></span></div><div class="content">GPT-4能否“真正”编写代码？
 原文链接：【Can GPT-4 Actually Write Code?】 – Tyler Glaiel
 
 省流
@@ -198,13 +206,13 @@ ChatGPT不知道答案，在其训练集中没有此类示例，也无法在其�
 
 
 序自从ChatGPT问世以来，我看到很多人发布了关于它编写代码的能力的帖子。人们已经发布了如何让它设计和实现数字拼图游戏（没有意识到这个游戏“发明”已经存在），他们如何让它克隆乒乓球，甚至我也用它编写了一些简单的Python实用程序脚本。 它非常有能力，是一个非常有用的工具。
-但是，所有这些人们发布的例子中都有一个共同点。它们都是已经解决过的问题，或者对这 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/b51d1d573c59/" title="【初体验】Atom 的“精神继承者”，Atom 的创始人新作“Zed”"><img class="post-bg" src="/static/articles/zed.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【初体验】Atom 的“精神继承者”，Atom 的创始人新作“Zed”"></a></div><div class="recent-post-info"><a class="article-title" href="/b51d1d573c59/" title="【初体验】Atom 的“精神继承者”，Atom 的创始人新作“Zed”">【初体验】Atom 的“精神继承者”，Atom 的创始人新作“Zed”</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-03-13T12:00:00.000Z" title="发表于 2023-03-13 20:00:00">2023-03-13</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-03-14T14:20:24.096Z" title="更新于 2023-03-14 22:20:24">2023-03-14</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BC%80%E6%BA%90%E5%A4%A7%E4%BA%8B%E4%BB%B6/">开源大事件</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%89%8D%E7%AB%AF/">前端</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E7%BC%96%E8%BE%91%E5%99%A8/">编辑器</a></span></div><div class="content">序rust卷出天际，Atom 的创始人新作“Zed”，对标vscode的基于rust开发的代码编辑来了。今天获得了zed的体验资格，第一时间就下载来尝鲜一下。vscode现在插件安装多了确实有些卡顿感🤔
+但是，所有这些人们发布的例子中都有一个共同点。它们都是已经解决过的问题，或者对这 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/b51d1d573c59/" title="【初体验】Atom 的“精神继承者”，Atom 的创始人新作“Zed”"><img class="post-bg" src="/static/articles/zed.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【初体验】Atom 的“精神继承者”，Atom 的创始人新作“Zed”"></a></div><div class="recent-post-info"><a class="article-title" href="/b51d1d573c59/" title="【初体验】Atom 的“精神继承者”，Atom 的创始人新作“Zed”">【初体验】Atom 的“精神继承者”，Atom 的创始人新作“Zed”</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-03-13T12:00:00.000Z" title="发表于 2023-03-13 20:00:00">2023-03-13</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-03-14T14:20:24.096Z" title="更新于 2023-03-14 22:20:24">2023-03-14</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BC%80%E6%BA%90%E5%A4%A7%E4%BA%8B%E4%BB%B6/">开源大事件</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%89%8D%E7%AB%AF/">前端</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E7%BC%96%E8%BE%91%E5%99%A8/">编辑器</a></span></div><div class="content">序rust卷出天际，Atom 的创始人新作“Zed”，对标vscode的基于rust开发的代码编辑来了。今天获得了zed的体验资格，第一时间就下载来尝鲜一下。vscode现在插件安装多了确实有些卡顿感🤔
 【10枚邀请码奉上】https://zed.dev/invites/FIEca2jU_qxJrUsS
 需要的小伙伴可以自行体验，现在仅支持Mac
 省流目前没有使用价值，功能对于一个code 编辑器是不合格。唯一亮点多人协同编辑，没有看见插件相关功能。建议过段时间（至少半年以上）再体验。🧐
 简介Zed 是一个高性能的多人协作代码编辑器，由 Atom 和 Tree-sitter 的创造者开发。Zed 用 Rust 编写，自定义原生 UI 框架，设计为“协作”产品。Zed 的主打特点是速度快，启动、加载文件和响应按键都非常迅速。Zed 还支持语法树、语言服务器协议、多缓冲区、集成终端、Vim 模式和主题等功能。
 Zed 目前还未开源，但有开源计划，将于本周推出 Private Alpha。
-体验下载安装后，打开ts文件就报告ts server 下载失败，初始印象就不好，我没有找到解决的方 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/ec184f727ddd/" title="🤔看阿里大佬狼叔怎么看待“前端已死论”"><img class="post-bg" src="/static/articles/die.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="🤔看阿里大佬狼叔怎么看待“前端已死论”"></a></div><div class="recent-post-info"><a class="article-title" href="/ec184f727ddd/" title="🤔看阿里大佬狼叔怎么看待“前端已死论”">🤔看阿里大佬狼叔怎么看待“前端已死论”</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-03-12T12:00:00.000Z" title="发表于 2023-03-12 20:00:00">2023-03-12</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-03-12T13:35:39.887Z" title="更新于 2023-03-12 21:35:39">2023-03-12</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BC%80%E6%BA%90%E5%A4%A7%E4%BA%8B%E4%BB%B6/">开源大事件</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E4%BD%8E%E4%BB%A3%E7%A0%81/">低代码</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E5%89%8D%E7%AB%AF/">前端</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/AI/">AI</a></span></div><div class="content">序前几天被“前端已死”论刷屏了。最近看了掘金直播，狼叔专场，深有感触，前端时间我也写了相关低代码到文章，也提到了低代码对我们前端开发者者的影响，我也不认可这个“前端已死”论。
+体验下载安装后，打开ts文件就报告ts server 下载失败，初始印象就不好，我没有找到解决的方 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/ec184f727ddd/" title="🤔看阿里大佬狼叔怎么看待“前端已死论”"><img class="post-bg" src="/static/articles/die.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="🤔看阿里大佬狼叔怎么看待“前端已死论”"></a></div><div class="recent-post-info"><a class="article-title" href="/ec184f727ddd/" title="🤔看阿里大佬狼叔怎么看待“前端已死论”">🤔看阿里大佬狼叔怎么看待“前端已死论”</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-03-12T12:00:00.000Z" title="发表于 2023-03-12 20:00:00">2023-03-12</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-03-12T13:35:39.887Z" title="更新于 2023-03-12 21:35:39">2023-03-12</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BC%80%E6%BA%90%E5%A4%A7%E4%BA%8B%E4%BB%B6/">开源大事件</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E4%BD%8E%E4%BB%A3%E7%A0%81/">低代码</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%89%8D%E7%AB%AF/">前端</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/AI/">AI</a></span></div><div class="content">序前几天被“前端已死”论刷屏了。最近看了掘金直播，狼叔专场，深有感触，前端时间我也写了相关低代码到文章，也提到了低代码对我们前端开发者者的影响，我也不认可这个“前端已死”论。
 直播回放【狼叔直播专场】
 省流
 低码影响的主要是内部页面开发（ToB），前端ToB仅仅是小部分。
@@ -218,7 +226,7 @@ chatGPT 不能替代程序员。AI长期乐观，短期悲观，目前资源门�
 关于低代码低代码的出现就是技术成熟的表现，或者是瓶颈的表现。前端技术目前发展趋向于成熟，最近也有一种论调，“rust将是前端基建到未来”，这也正是技术发展稳定的表现，创新出现瓶颈的时候，就是性能，效率发展的时候。
 
 
-关于AI、chatGPT前端时间我也发了chatGPT相关的，确实承认chatGPT 很强，但是绝不是能替代程序员的程度，上一次ai的突破还要 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/b976a70999a3/" title="webpack沦为对比单位？前端整活圈又出新品了"><img class="post-bg" src="/static/articles/rspack.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="webpack沦为对比单位？前端整活圈又出新品了"></a></div><div class="recent-post-info"><a class="article-title" href="/b976a70999a3/" title="webpack沦为对比单位？前端整活圈又出新品了">webpack沦为对比单位？前端整活圈又出新品了</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-03-10T04:00:00.000Z" title="发表于 2023-03-10 12:00:00">2023-03-10</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-03-10T15:14:21.003Z" title="更新于 2023-03-10 23:14:21">2023-03-10</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BC%80%E6%BA%90/">开源</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/rspack-webpack/">rspack webpack</a></span></div><div class="content">序能被JavaScript重写的都将被JavaScript重写
+关于AI、chatGPT前端时间我也发了chatGPT相关的，确实承认chatGPT 很强，但是绝不是能替代程序员的程度，上一次ai的突破还要 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/b976a70999a3/" title="webpack沦为对比单位？前端整活圈又出新品了"><img class="post-bg" src="/static/articles/rspack.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="webpack沦为对比单位？前端整活圈又出新品了"></a></div><div class="recent-post-info"><a class="article-title" href="/b976a70999a3/" title="webpack沦为对比单位？前端整活圈又出新品了">webpack沦为对比单位？前端整活圈又出新品了</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-03-10T04:00:00.000Z" title="发表于 2023-03-10 12:00:00">2023-03-10</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-03-10T15:14:21.003Z" title="更新于 2023-03-10 23:14:21">2023-03-10</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BC%80%E6%BA%90/">开源</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/rspack-webpack/">rspack webpack</a></span></div><div class="content">序能被JavaScript重写的都将被JavaScript重写
 能被rust重写的都将被rust重写？
 省流新项目建议直接vite，rspack可以当作历史巨石项目的的一个过渡品，长期观望，farm目前阶段还不推荐使用。
 rspack（Rust）为什么要做 Rspack我们创建 Rspack 的原因是要解决在 ByteDance 维护构建工具时遇到的各种性能问题。由于 ByteDance 内部存在许多巨石应用，它们都具有复杂的构建配置，生产环境构建需要耗费十几分钟，甚至超过半小时；开发环境的耗时也超过十几分钟。
@@ -229,7 +237,7 @@ rspack（Rust）为什么要做 Rspack我们创建 Rspack 的原因是要解决�
 【Github】https://github.com/web-infra-dev/rspack
 Farm （Rust）阿里系，很低调基本没宣传,项目还在很早期阶段
 文档仅英文，很多内容没有，处于不可用状态，玩玩还行
-Why Farm?As the  ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/c87c2592851d/" title="【开源那些事】vite issues 蹲点计划？"><img class="post-bg" src="/static/articles/vite.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【开源那些事】vite issues 蹲点计划？"></a></div><div class="recent-post-info"><a class="article-title" href="/c87c2592851d/" title="【开源那些事】vite issues 蹲点计划？">【开源那些事】vite issues 蹲点计划？</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-03-06T04:00:00.000Z" title="发表于 2023-03-06 12:00:00">2023-03-06</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-03-05T03:27:01.502Z" title="更新于 2023-03-05 11:27:01">2023-03-05</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Vuejs/">Vuejs</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/vite/">vite</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E5%BC%80%E6%BA%90/">开源</a></span></div><div class="content">序去年一直有计划多参与到开源社区中，所以没事就会去vite issues 下逛逛看看有没有自己可以解决的问题，这不就被我混到几个。😄
+Why Farm?As the  ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/c87c2592851d/" title="【开源那些事】vite issues 蹲点计划？"><img class="post-bg" src="/static/articles/vite.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【开源那些事】vite issues 蹲点计划？"></a></div><div class="recent-post-info"><a class="article-title" href="/c87c2592851d/" title="【开源那些事】vite issues 蹲点计划？">【开源那些事】vite issues 蹲点计划？</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-03-06T04:00:00.000Z" title="发表于 2023-03-06 12:00:00">2023-03-06</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-03-05T03:27:01.502Z" title="更新于 2023-03-05 11:27:01">2023-03-05</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Vuejs/">Vuejs</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/vite/">vite</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%BC%80%E6%BA%90/">开源</a></span></div><div class="content">序去年一直有计划多参与到开源社区中，所以没事就会去vite issues 下逛逛看看有没有自己可以解决的问题，这不就被我混到几个。😄
 目前提2个issues，提了5个PR (成功合并两个半)为啥是两个半，因为有一个合并了被revert了，不过用到还是我初始思路。
 我遇到了什么？1、use –host duplicate port number这是最近遇到的一个问题，vite 使用–port 的时候启用端口号会重复使用。
 
@@ -240,7 +248,7 @@ When localhost(vite dev) is listening on port 5173, it’s possible for 127.0.0.
 经过我一系列的测试：
 
 According to my test:
-Set – host, and then httpServer.listen pa ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/f117b534a1ee/" title="【低代码系列之AIGC】 人工智能会给低代码带来什么？"><img class="post-bg" src="/static/articles/wenxin-cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【低代码系列之AIGC】 人工智能会给低代码带来什么？"></a></div><div class="recent-post-info"><a class="article-title" href="/f117b534a1ee/" title="【低代码系列之AIGC】 人工智能会给低代码带来什么？">【低代码系列之AIGC】 人工智能会给低代码带来什么？</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-02-25T06:56:11.000Z" title="发表于 2023-02-25 14:56:11">2023-02-25</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-02-25T08:02:08.251Z" title="更新于 2023-02-25 16:02:08">2023-02-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%BD%8E%E4%BB%A3%E7%A0%81%E7%B3%BB%E5%88%97/">低代码系列</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E4%BD%8E%E4%BB%A3%E7%A0%81/">低代码</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/">人工智能</a></span></div><div class="content">序体验了ChatGPT后，我还在感叹是不是人类要全面进入个人人工智能助手的时代了。然后就出现一系列的AI产品。
+Set – host, and then httpServer.listen pa ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/f117b534a1ee/" title="【低代码系列之AIGC】 人工智能会给低代码带来什么？"><img class="post-bg" src="/static/articles/wenxin-cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【低代码系列之AIGC】 人工智能会给低代码带来什么？"></a></div><div class="recent-post-info"><a class="article-title" href="/f117b534a1ee/" title="【低代码系列之AIGC】 人工智能会给低代码带来什么？">【低代码系列之AIGC】 人工智能会给低代码带来什么？</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-02-25T06:56:11.000Z" title="发表于 2023-02-25 14:56:11">2023-02-25</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-02-25T08:02:08.251Z" title="更新于 2023-02-25 16:02:08">2023-02-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%BD%8E%E4%BB%A3%E7%A0%81%E7%B3%BB%E5%88%97/">低代码系列</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E4%BD%8E%E4%BB%A3%E7%A0%81/">低代码</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/">人工智能</a></span></div><div class="content">序体验了ChatGPT后，我还在感叹是不是人类要全面进入个人人工智能助手的时代了。然后就出现一系列的AI产品。
 
 bing宣布整合ChatGPT(现在都还没有排上队)，bing 因此下载量暴涨，有现在已经把整合的功能阉割了，没有才开始那么智能了。
 
@@ -255,7 +263,7 @@ bing宣布整合ChatGPT(现在都还没有排上队)，bing 因此下载量暴�
 
 AIGC上面介绍到的 ChatGPT，AI 绘画，这些本质而言都是 AIGC 的一部分，什么是 AIGC ？
 
-AIGC即AI Generated Content，利用人工智能技术来生成内容，它被认为是继PGC、UGC之后的新型内容创作方式。2022年AIGC发展速度惊人，迭代速度更是呈现指数级爆发，这其中深度学习模型不断完善、开源模式的推动、大模型探索商业化的可能，成为AIGC发展 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/a4bca279ec39/" title="【精】全球最大的同性交友网站社区指南！"><img class="post-bg" src="/static/articles/opensource.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【精】全球最大的同性交友网站社区指南！"></a></div><div class="recent-post-info"><a class="article-title" href="/a4bca279ec39/" title="【精】全球最大的同性交友网站社区指南！">【精】全球最大的同性交友网站社区指南！</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-02-19T13:20:22.000Z" title="发表于 2023-02-19 21:20:22">2023-02-19</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-02-19T13:23:01.847Z" title="更新于 2023-02-19 21:23:01">2023-02-19</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BC%80%E6%BA%90%E5%A4%A7%E4%BA%8B%E4%BB%B6/">开源大事件</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/2023-%E5%BC%80%E6%BA%90/">2023 开源</a></span></div><div class="content">作为一名前端开发者，加入开源社区对我们有什么帮助？
+AIGC即AI Generated Content，利用人工智能技术来生成内容，它被认为是继PGC、UGC之后的新型内容创作方式。2022年AIGC发展速度惊人，迭代速度更是呈现指数级爆发，这其中深度学习模型不断完善、开源模式的推动、大模型探索商业化的可能，成为AIGC发展 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/a4bca279ec39/" title="【精】全球最大的同性交友网站社区指南！"><img class="post-bg" src="/static/articles/opensource.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【精】全球最大的同性交友网站社区指南！"></a></div><div class="recent-post-info"><a class="article-title" href="/a4bca279ec39/" title="【精】全球最大的同性交友网站社区指南！">【精】全球最大的同性交友网站社区指南！</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-02-19T13:20:22.000Z" title="发表于 2023-02-19 21:20:22">2023-02-19</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-02-19T13:23:01.847Z" title="更新于 2023-02-19 21:23:01">2023-02-19</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BC%80%E6%BA%90%E5%A4%A7%E4%BA%8B%E4%BB%B6/">开源大事件</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/2023-%E5%BC%80%E6%BA%90/">2023 开源</a></span></div><div class="content">作为一名前端开发者，加入开源社区对我们有什么帮助？
 省流
 小白：学习新技能、提高编码能力、结识志同道合的人
 
@@ -274,23 +282,7 @@ AIGC即AI Generated Content，利用人工智能技术来生成内容，它被�
 获得社区认可：如果你为开源项目做出了贡献，你将得到社区的认可和尊重，这也是你个人成长的重要证明之一。
 
 如何参与开源社区？
-了解项目：在 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/1fb158d9246c/" title="【低代码系列之chatGPT访谈】chatGPT怎么看待低代码？"><img class="post-bg" src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/44db9684f5394254bbd39f2baefdc798~tplv-k3u1fbpfcp-zoom-crop-mark:3024:3024:3024:1702.awebp?" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【低代码系列之chatGPT访谈】chatGPT怎么看待低代码？"></a></div><div class="recent-post-info"><a class="article-title" href="/1fb158d9246c/" title="【低代码系列之chatGPT访谈】chatGPT怎么看待低代码？">【低代码系列之chatGPT访谈】chatGPT怎么看待低代码？</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-02-12T13:44:32.000Z" title="发表于 2023-02-12 21:44:32">2023-02-12</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-02-18T13:44:57.402Z" title="更新于 2023-02-18 21:44:57">2023-02-18</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%BD%8E%E4%BB%A3%E7%A0%81%E7%B3%BB%E5%88%97/">低代码系列</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E4%BD%8E%E4%BB%A3%E7%A0%81/">低代码</a></span></div><div class="content">序 好久没有更新低代码系列的文章了，每次打开掘金都想写点什么，打开草稿箱又发现没什么可写的，借着
-最近大火chatGPT，可能很多人都了解了，我准备了几个问题看看chatGPT是怎么看待低代码的吧。
-怎么看待低代码的现状以及未来发展，作为一个前端开发者应该做些什么？
-答一
-
-
-
-答二
-
-
-  这个问题我让chatGPT回答了两次，从chatGPT回答来看，它还是对低代码持有乐观的态度的，也符合当前大部分人的看法。
-   作为一个前端开发者来说，我认为低代码，未来可期，但需要技术的突破，需要一种破局的契机。就像前端NodeJS的出现一样，推动前端高速发展。我们要做的就是积累与关注。保持学习的状态。才可以抓住机会。
-当前有哪些低代码产品，你更看好谁的方向，并给出解释？
-chatGPT提及的产品中并没有国产的，或许是因为chatGPT训练素材的原因吧。
-低代码现在的发展，现在更趋向做出一款垂直场景的产品，不管是国内还是国外的，都是某种固定场景下的解决方案，低代码不是什么银弹，至少现在不是。
-局限收敛才更容易出结果，有结果才会推动发展，不管放在哪里都是合适的。
-下面是chatGPT提及的一些低 ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/#content-inner">6</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://avatars.githubusercontent.com/u/37766068?v=4" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">阿乐去买菜</div><div class="author-info__description">点点星光、璀璨星河。</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">57</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">44</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">13</div></a></div><a id="card-info-btn" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/kinfuy"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/kinfuy/kinfuy.github.io" rel="external nofollow noreferrer" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:kinfuy@1outlook.com.com" rel="external nofollow noreferrer" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/20a62f1b9ea2/" title="Vite4.3 来袭，性能提升 10x！冷启动时间比turbopack还快！"><img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/10f42280470c4e8f9d51fc4ef406e910~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Vite4.3 来袭，性能提升 10x！冷启动时间比turbopack还快！"/></a><div class="content"><a class="title" href="/20a62f1b9ea2/" title="Vite4.3 来袭，性能提升 10x！冷启动时间比turbopack还快！">Vite4.3 来袭，性能提升 10x！冷启动时间比turbopack还快！</a><time datetime="2023-04-12T16:00:00.000Z" title="发表于 2023-04-13 00:00:00">2023-04-13</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/e74a030ea11c/" title="写给对 “AI 焦虑” 的人，也写给自己👀"><img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bee73ff65b2c4ba3bf0a9568a18fe1db~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="写给对 “AI 焦虑” 的人，也写给自己👀"/></a><div class="content"><a class="title" href="/e74a030ea11c/" title="写给对 “AI 焦虑” 的人，也写给自己👀">写给对 “AI 焦虑” 的人，也写给自己👀</a><time datetime="2023-03-26T12:00:00.000Z" title="发表于 2023-03-26 20:00:00">2023-03-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2701d4a4a442/" title="【译】GPT-4能否“真正”编写代码？"><img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f131a456136e46c3a0821cfe8be2cdaf~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【译】GPT-4能否“真正”编写代码？"/></a><div class="content"><a class="title" href="/2701d4a4a442/" title="【译】GPT-4能否“真正”编写代码？">【译】GPT-4能否“真正”编写代码？</a><time datetime="2023-03-19T09:49:20.000Z" title="发表于 2023-03-19 17:49:20">2023-03-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/b51d1d573c59/" title="【初体验】Atom 的“精神继承者”，Atom 的创始人新作“Zed”"><img src="/static/articles/zed.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【初体验】Atom 的“精神继承者”，Atom 的创始人新作“Zed”"/></a><div class="content"><a class="title" href="/b51d1d573c59/" title="【初体验】Atom 的“精神继承者”，Atom 的创始人新作“Zed”">【初体验】Atom 的“精神继承者”，Atom 的创始人新作“Zed”</a><time datetime="2023-03-13T12:00:00.000Z" title="发表于 2023-03-13 20:00:00">2023-03-13</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/ec184f727ddd/" title="🤔看阿里大佬狼叔怎么看待“前端已死论”"><img src="/static/articles/die.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="🤔看阿里大佬狼叔怎么看待“前端已死论”"/></a><div class="content"><a class="title" href="/ec184f727ddd/" title="🤔看阿里大佬狼叔怎么看待“前端已死论”">🤔看阿里大佬狼叔怎么看待“前端已死论”</a><time datetime="2023-03-12T12:00:00.000Z" title="发表于 2023-03-12 20:00:00">2023-03-12</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+了解项目：在 ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/#content-inner">6</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://avatars.githubusercontent.com/u/37766068?v=4" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">阿乐去买菜</div><div class="author-info__description">点点星光、璀璨星河。</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">58</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">45</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">13</div></a></div><a id="card-info-btn" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/kinfuy"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/kinfuy/kinfuy.github.io" rel="external nofollow noreferrer" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:kinfuy@1outlook.com.com" rel="external nofollow noreferrer" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/8fd479c10f02/" title="“遇见数字，发现有趣” 前端程序员的第一款 iOS App 《Suka 数字卡片》上线了🎉🎉"><img src="https://i.imgur.com/vxOdmUH.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="“遇见数字，发现有趣” 前端程序员的第一款 iOS App 《Suka 数字卡片》上线了🎉🎉"/></a><div class="content"><a class="title" href="/8fd479c10f02/" title="“遇见数字，发现有趣” 前端程序员的第一款 iOS App 《Suka 数字卡片》上线了🎉🎉">“遇见数字，发现有趣” 前端程序员的第一款 iOS App 《Suka 数字卡片》上线了🎉🎉</a><time datetime="2024-09-28T14:37:25.000Z" title="发表于 2024-09-28 22:37:25">2024-09-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/20a62f1b9ea2/" title="Vite4.3 来袭，性能提升 10x！冷启动时间比turbopack还快！"><img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/10f42280470c4e8f9d51fc4ef406e910~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Vite4.3 来袭，性能提升 10x！冷启动时间比turbopack还快！"/></a><div class="content"><a class="title" href="/20a62f1b9ea2/" title="Vite4.3 来袭，性能提升 10x！冷启动时间比turbopack还快！">Vite4.3 来袭，性能提升 10x！冷启动时间比turbopack还快！</a><time datetime="2023-04-12T16:00:00.000Z" title="发表于 2023-04-13 00:00:00">2023-04-13</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/e74a030ea11c/" title="写给对 “AI 焦虑” 的人，也写给自己👀"><img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bee73ff65b2c4ba3bf0a9568a18fe1db~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="写给对 “AI 焦虑” 的人，也写给自己👀"/></a><div class="content"><a class="title" href="/e74a030ea11c/" title="写给对 “AI 焦虑” 的人，也写给自己👀">写给对 “AI 焦虑” 的人，也写给自己👀</a><time datetime="2023-03-26T12:00:00.000Z" title="发表于 2023-03-26 20:00:00">2023-03-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2701d4a4a442/" title="【译】GPT-4能否“真正”编写代码？"><img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f131a456136e46c3a0821cfe8be2cdaf~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【译】GPT-4能否“真正”编写代码？"/></a><div class="content"><a class="title" href="/2701d4a4a442/" title="【译】GPT-4能否“真正”编写代码？">【译】GPT-4能否“真正”编写代码？</a><time datetime="2023-03-19T09:49:20.000Z" title="发表于 2023-03-19 17:49:20">2023-03-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/b51d1d573c59/" title="【初体验】Atom 的“精神继承者”，Atom 的创始人新作“Zed”"><img src="/static/articles/zed.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【初体验】Atom 的“精神继承者”，Atom 的创始人新作“Zed”"/></a><div class="content"><a class="title" href="/b51d1d573c59/" title="【初体验】Atom 的“精神继承者”，Atom 的创始人新作“Zed”">【初体验】Atom 的“精神继承者”，Atom 的创始人新作“Zed”</a><time datetime="2023-03-13T12:00:00.000Z" title="发表于 2023-03-13 20:00:00">2023-03-13</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
             <i class="fas fa-folder-open"></i>
             <span>分类</span>
             <a class="card-more-btn" href="/categories/" title="查看更多">
@@ -298,7 +290,7 @@ chatGPT提及的产品中并没有国产的，或许是因为chatGPT训练素材
             </div>
             <ul class="card-category-list" id="aside-cat-list">
             <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Angular/"><span class="card-category-list-name">Angular</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/JavaScript/"><span class="card-category-list-name">JavaScript</span><span class="card-category-list-count">14</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Javascript/"><span class="card-category-list-name">Javascript</span><span class="card-category-list-count">3</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/LeetCode/"><span class="card-category-list-name">LeetCode</span><span class="card-category-list-count">3</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Nodejs/"><span class="card-category-list-name">Nodejs</span><span class="card-category-list-count">3</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Vuejs/"><span class="card-category-list-name">Vuejs</span><span class="card-category-list-count">9</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E4%BD%8E%E4%BB%A3%E7%A0%81%E7%B3%BB%E5%88%97/"><span class="card-category-list-name">低代码系列</span><span class="card-category-list-count">6</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%B7%A5%E5%85%B7/"><span class="card-category-list-name">工具</span><span class="card-category-list-count">4</span></a></li>
-            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 1.22em; color: rgb(198, 28, 126)">数据结构</a><a href="/tags/JavaScript/" style="font-size: 1.45em; color: rgb(171, 104, 130)">JavaScript</a><a href="/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/" style="font-size: 1.15em; color: rgb(190, 138, 86)">面试题</a><a href="/tags/ES6/" style="font-size: 1.3em; color: rgb(47, 0, 194)">ES6</a><a href="/tags/2021/" style="font-size: 1.15em; color: rgb(10, 179, 182)">2021</a><a href="/tags/ES6-ASYNC/" style="font-size: 1.15em; color: rgb(68, 137, 174)">ES6 ASYNC</a><a href="/tags/%E5%BC%82%E6%AD%A5/" style="font-size: 1.15em; color: rgb(121, 89, 33)">异步</a><a href="/tags/Vuejs/" style="font-size: 1.15em; color: rgb(117, 185, 66)">Vuejs</a><a href="/tags/Angular/" style="font-size: 1.15em; color: rgb(90, 32, 76)">Angular</a><a href="/tags/2022/" style="font-size: 1.22em; color: rgb(65, 68, 146)">2022</a><a href="/tags/%E4%BB%A3%E7%90%86/" style="font-size: 1.15em; color: rgb(186, 63, 98)">代理</a><a href="/tags/Axios/" style="font-size: 1.22em; color: rgb(160, 21, 96)">Axios</a><a href="/tags/chrome/" style="font-size: 1.22em; color: rgb(7, 122, 105)">chrome</a><a href="/tags/email/" style="font-size: 1.15em; color: rgb(127, 183, 104)">email</a><a href="/tags/EventLoop/" style="font-size: 1.15em; color: rgb(118, 76, 30)">EventLoop</a><a href="/tags/git%E8%B4%A6%E5%8F%B7/" style="font-size: 1.15em; color: rgb(45, 96, 29)">git账号</a><a href="/tags/git%E8%B4%A6%E5%8F%B7-npm-registry/" style="font-size: 1.15em; color: rgb(106, 10, 144)">git账号 npm registry</a><a href="/tags/LeetCode/" style="font-size: 1.3em; color: rgb(123, 189, 96)">LeetCode</a><a href="/tags/%E4%BD%8E%E4%BB%A3%E7%A0%81/" style="font-size: 1.38em; color: rgb(164, 84, 49)">低代码</a><a href="/tags/%E6%8C%87%E4%BB%A4/" style="font-size: 1.15em; color: rgb(136, 192, 186)">指令</a><a href="/tags/CLI/" style="font-size: 1.15em; color: rgb(126, 200, 53)">CLI</a><a href="/tags/NodeJS/" style="font-size: 1.15em; color: rgb(182, 15, 68)">NodeJS</a><a href="/tags/%E6%A8%A1%E5%9D%97%E5%8C%96/" style="font-size: 1.15em; color: rgb(82, 53, 198)">模块化</a><a href="/tags/prototype/" style="font-size: 1.15em; color: rgb(106, 198, 33)">prototype</a><a href="/tags/JavaScript-%E5%89%8D%E7%AB%AF%E5%8D%95%E4%BD%8D/" style="font-size: 1.15em; color: rgb(116, 33, 48)">JavaScript 前端单位</a><a href="/tags/QQ%E4%BA%92%E8%81%94/" style="font-size: 1.15em; color: rgb(22, 61, 55)">QQ互联</a><a href="/tags/vue2/" style="font-size: 1.3em; color: rgb(125, 128, 101)">vue2</a><a href="/tags/%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD/" style="font-size: 1.15em; color: rgb(110, 124, 122)">文件下载</a><a href="/tags/slot/" style="font-size: 1.15em; color: rgb(189, 134, 162)">slot</a><a href="/tags/%E6%8F%92%E6%A7%BD/" style="font-size: 1.15em; color: rgb(147, 144, 72)">插槽</a><a href="/tags/socket/" style="font-size: 1.15em; color: rgb(194, 178, 62)">socket</a><a href="/tags/vitepress/" style="font-size: 1.15em; color: rgb(162, 66, 19)">vitepress</a><a href="/tags/Vue3/" style="font-size: 1.22em; color: rgb(148, 26, 147)">Vue3</a><a href="/tags/Hook/" style="font-size: 1.15em; color: rgb(66, 86, 183)">Hook</a><a href="/tags/2023-%E5%BC%80%E6%BA%90/" style="font-size: 1.22em; color: rgb(164, 176, 60)">2023 开源</a><a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" style="font-size: 1.15em; color: rgb(145, 27, 144)">人工智能</a><a href="/tags/vite/" style="font-size: 1.22em; color: rgb(93, 103, 155)">vite</a><a href="/tags/%E5%BC%80%E6%BA%90/" style="font-size: 1.15em; color: rgb(61, 29, 152)">开源</a><a href="/tags/ai/" style="font-size: 1.15em; color: rgb(185, 101, 75)">ai</a><a href="/tags/ChatGPT/" style="font-size: 1.22em; color: rgb(47, 170, 175)">ChatGPT</a></div></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">57</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2023-02-16T16:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">53.6k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-11-21T15:50:32.146Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/static/articles/wallhaven-3llr9y.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2023 By 阿乐去买菜</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://beian.miit.gov.cn">黔ICP备2023015336号-1</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script>function panguFn () {
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/2022/" style="font-size: 1.22em; color: rgb(127, 7, 178)">2022</a><a href="/tags/ai/" style="font-size: 1.15em; color: rgb(186, 137, 116)">ai</a><a href="/tags/ChatGPT/" style="font-size: 1.22em; color: rgb(163, 72, 153)">ChatGPT</a><a href="/tags/%E4%BB%A3%E7%90%86/" style="font-size: 1.15em; color: rgb(145, 113, 131)">代理</a><a href="/tags/Angular/" style="font-size: 1.15em; color: rgb(109, 41, 163)">Angular</a><a href="/tags/ES6/" style="font-size: 1.3em; color: rgb(159, 124, 154)">ES6</a><a href="/tags/Axios/" style="font-size: 1.22em; color: rgb(67, 31, 68)">Axios</a><a href="/tags/JavaScript/" style="font-size: 1.45em; color: rgb(49, 120, 63)">JavaScript</a><a href="/tags/chrome/" style="font-size: 1.22em; color: rgb(11, 65, 59)">chrome</a><a href="/tags/email/" style="font-size: 1.15em; color: rgb(189, 25, 65)">email</a><a href="/tags/EventLoop/" style="font-size: 1.15em; color: rgb(163, 129, 93)">EventLoop</a><a href="/tags/git%E8%B4%A6%E5%8F%B7/" style="font-size: 1.15em; color: rgb(119, 104, 180)">git账号</a><a href="/tags/git%E8%B4%A6%E5%8F%B7-npm-registry/" style="font-size: 1.15em; color: rgb(6, 118, 56)">git账号 npm registry</a><a href="/tags/LeetCode/" style="font-size: 1.3em; color: rgb(85, 73, 32)">LeetCode</a><a href="/tags/%E6%8C%87%E4%BB%A4/" style="font-size: 1.15em; color: rgb(188, 146, 5)">指令</a><a href="/tags/%E4%BD%8E%E4%BB%A3%E7%A0%81/" style="font-size: 1.38em; color: rgb(136, 63, 42)">低代码</a><a href="/tags/CLI/" style="font-size: 1.15em; color: rgb(71, 113, 177)">CLI</a><a href="/tags/NodeJS/" style="font-size: 1.15em; color: rgb(105, 118, 89)">NodeJS</a><a href="/tags/%E6%A8%A1%E5%9D%97%E5%8C%96/" style="font-size: 1.15em; color: rgb(47, 68, 30)">模块化</a><a href="/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/" style="font-size: 1.15em; color: rgb(80, 17, 25)">面试题</a><a href="/tags/Vuejs/" style="font-size: 1.15em; color: rgb(22, 6, 52)">Vuejs</a><a href="/tags/JavaScript-%E5%89%8D%E7%AB%AF%E5%8D%95%E4%BD%8D/" style="font-size: 1.15em; color: rgb(120, 164, 9)">JavaScript 前端单位</a><a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 1.22em; color: rgb(45, 172, 34)">数据结构</a><a href="/tags/vue2/" style="font-size: 1.3em; color: rgb(23, 194, 67)">vue2</a><a href="/tags/QQ%E4%BA%92%E8%81%94/" style="font-size: 1.15em; color: rgb(161, 103, 18)">QQ互联</a><a href="/tags/prototype/" style="font-size: 1.15em; color: rgb(112, 44, 134)">prototype</a><a href="/tags/%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD/" style="font-size: 1.15em; color: rgb(79, 6, 71)">文件下载</a><a href="/tags/rspack-webpack/" style="font-size: 1.15em; color: rgb(2, 89, 92)">rspack webpack</a><a href="/tags/socket/" style="font-size: 1.15em; color: rgb(15, 142, 46)">socket</a><a href="/tags/slot/" style="font-size: 1.15em; color: rgb(157, 140, 66)">slot</a><a href="/tags/%E6%8F%92%E6%A7%BD/" style="font-size: 1.15em; color: rgb(42, 127, 176)">插槽</a><a href="/tags/iOS/" style="font-size: 1.15em; color: rgb(24, 169, 119)">iOS</a><a href="/tags/vite/" style="font-size: 1.22em; color: rgb(61, 169, 27)">vite</a><a href="/tags/%E5%BC%80%E6%BA%90/" style="font-size: 1.15em; color: rgb(140, 29, 173)">开源</a><a href="/tags/vitepress/" style="font-size: 1.15em; color: rgb(25, 26, 67)">vitepress</a><a href="/tags/Vue3/" style="font-size: 1.22em; color: rgb(15, 125, 197)">Vue3</a><a href="/tags/Hook/" style="font-size: 1.15em; color: rgb(184, 94, 32)">Hook</a><a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 1.22em; color: rgb(11, 168, 90)">前端</a><a href="/tags/%E7%BC%96%E8%BE%91%E5%99%A8/" style="font-size: 1.15em; color: rgb(72, 128, 114)">编辑器</a><a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" style="font-size: 1.15em; color: rgb(47, 118, 63)">人工智能</a></div></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">58</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2023-02-16T16:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">53.9k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-09-28T14:45:16.580Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/static/articles/wallhaven-3llr9y.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2023 - 2024 By 阿乐去买菜</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://beian.miit.gov.cn">黔ICP备2023015336号-1</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script>function panguFn () {
   if (typeof pangu === 'object') pangu.autoSpacingPage()
   else {
     getScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js')
@@ -316,7 +308,7 @@ function panguInit () {
   }
 }
 
-document.addEventListener('DOMContentLoaded', panguInit)</script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>window.typedJSFn = {
+document.addEventListener('DOMContentLoaded', panguInit)</script><div class="js-pjax"><script>window.typedJSFn = {
   init: (str) => {
     window.typed = new Typed('#subtitle', Object.assign({
       strings: str,
@@ -331,7 +323,7 @@ document.addEventListener('DOMContentLoaded', panguInit)</script><script src="/j
       if (typeof Typed === 'function') {
         subtitleType()
       } else {
-        getScript('https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js').then(subtitleType)
+        getScript('https://cdn.jsdelivr.net/npm/typed.js/dist/typed.umd.min.js').then(subtitleType)
       }
     } else {
       subtitleType()
@@ -347,36 +339,48 @@ document.addEventListener('DOMContentLoaded', panguInit)</script><script src="/j
         sub.unshift(content)
         typedJSFn.init(sub)
       } else {
-        document.getElementById('subtitle').innerHTML = result.data.content
+        document.getElementById('subtitle').textContent = result.data.content
       }
     })
   })
 }
 typedJSFn.run(subtitleType)
 </script><script>(() => {
-  const $mermaidWrap = document.querySelectorAll('#article-container .mermaid-wrap')
-  if ($mermaidWrap.length) {
-    window.runMermaid = () => {
-      window.loadMermaid = true
-      const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+  const $mermaid = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaid.length === 0) return
+  const runMermaid = () => {
+    window.loadMermaid = true
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
 
-      Array.from($mermaidWrap).forEach((item, index) => {
-        const mermaidSrc = item.firstElementChild
-        const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
-        const mermaidID = 'mermaid-' + index
-        const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
-        mermaid.mermaidAPI.render(mermaidID, mermaidDefinition, (svgCode) => {
-          mermaidSrc.insertAdjacentHTML('afterend', svgCode)
+    Array.from($mermaid).forEach((item, index) => {
+      const mermaidSrc = item.firstElementChild
+      const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+      const mermaidID = 'mermaid-' + index
+      const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+
+      const renderFn = mermaid.render(mermaidID, mermaidDefinition)
+
+      const renderV10 = () => {
+        renderFn.then(({svg}) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svg)
         })
-      })
-    }
+      }
 
-    const loadMermaid = () => {
-      window.loadMermaid ? runMermaid() : getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(runMermaid)
-    }
+      const renderV9 = svg => {
+        mermaidSrc.insertAdjacentHTML('afterend', svg)
+      }
 
-    window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+      typeof renderFn === 'string' ? renderV9(renderFn) : renderV10()
+    })
   }
+
+  const loadMermaid = () => {
+    window.loadMermaid ? runMermaid() : getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(runMermaid)
+  }
+
+  btf.addGlobalFn('themeChange', runMermaid, 'mermaid')
+
+  window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
 })()</script></div><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-fluttering-ribbon.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
 POWERMODE.shake = true;
 POWERMODE.mobile = false;
@@ -393,11 +397,11 @@ var pjax = new Pjax({
 
 document.addEventListener('pjax:send', function () {
 
-  // removeEventListener scroll 
-  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
-  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+  // removeEventListener
+  btf.removeGlobalFnEvent('pjax')
+  btf.removeGlobalFnEvent('themeChange')
 
-  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  document.getElementById('rightside').classList.remove('rightside-show')
   
   if (window.aplayers) {
     for (let i = 0; i < window.aplayers.length; i++) {
@@ -429,7 +433,6 @@ document.addEventListener('pjax:complete', function () {
 
   GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
 
-  typeof chatBtnFn === 'function' && chatBtnFn()
   typeof panguInit === 'function' && panguInit()
 
   // google analytics
@@ -444,8 +447,8 @@ document.addEventListener('pjax:complete', function () {
   typeof Prism === 'object' && Prism.highlightAll()
 })
 
-document.addEventListener('pjax:error', (e) => {
+document.addEventListener('pjax:error', e => {
   if (e.request.status === 404) {
     pjax.loadUrl('/404.html')
   }
-})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"left","width":200,"height":400},"mobile":{"show":false},"log":false});</script></body></html>
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"left","width":200,"height":400},"mobile":{"show":false},"log":false});</script></body></html>
