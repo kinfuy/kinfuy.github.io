@@ -123,3 +123,7 @@ export default defineConfig({
 
 还有根据官方的一些信息，当稳定后 vite-plugin-warmup 插件功能会进入vite核心中。大家感兴趣可以提前升级到vite4.3-beta安装此插件，体验一下。
 
+## Follow 认证
+
+This message is used to verify that this feed (feedId:62851852422645760) belongs to me (userId:56870707744741376). Join me in enjoying the next generation information browser https://follow.is.
+

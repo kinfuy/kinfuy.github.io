@@ -343,7 +343,7 @@ footer:
   owner:
     enable: true
     since: 2023
-  custom_text:
+  custom_text: <a href="https://beian.miit.gov.cn">黔ICP备2023015336号-1</a>
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -360,18 +360,18 @@ baidu_analytics: 7edb025e5c958b78d58aa65d2a8ebb11
 
 # Google Adsense (谷歌廣告)
 # https://www.google.com/adsense
-google_adsense:
-  enable: true
-  auto_ads: true
-  js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
-  client: ca-pub-1331257633293358
-  enable_page_level_ads: true
+# google_adsense:
+#   enable: true
+#   auto_ads: true
+#   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
+#   client: ca-pub-1331257633293358
+#   enable_page_level_ads: true
 
-# Insert ads manually (手動插入廣告)
-ad:
-  index: <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" data-ad-client="ca-pub-1331257633293358" data-ad-slot="7586987656"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
-  aside: <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1331257633293358" data-ad-slot="1257383027" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
-  post: <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-1331257633293358" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
+# # Insert ads manually (手動插入廣告)
+# ad:
+#   index: <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" data-ad-client="ca-pub-1331257633293358" data-ad-slot="7586987656"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
+#   aside: <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1331257633293358" data-ad-slot="1257383027" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
+#   post: <ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-1331257633293358" data-ad-slot="2542544532"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 
 # Verification (站長驗證)
